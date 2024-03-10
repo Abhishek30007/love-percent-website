@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <style>
+        *{
+ margin: 0px;
+ padding: 0px;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: pink;
+   
+}
+#heading{
+    margin-top: 1.3vh;
+    width: 100%;
+    height: 90px;
+    /* background-color:royalblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#heading img{
+    height: 60px;
+    background-color: white;
+    margin: 0px 10px;
+
+}
+#part2{
+    display: flex;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    justify-content: space-between;
+    gap: 7vw;
+}
+#part2 h4 a:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+#part2 h4 a{
+    font-weight: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+}
+#signup{
+    margin: 3vw;
+}
+#signup button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#signup button{
+    cursor: pointer;
+    padding: 12px 20px;
+    background-color:rgb(230, 32, 65);
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    box-shadow: 0px 0px 10px rgb(74, 73, 73) ;
+}
+#landing_page{
+    /* height: calc(100vh - 100px); */
+    height: 100vh;
+    /* height: 100%;
+    width: 100%;
+    /* background-color: brown; */
+    margin: 50px 100px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 30px;
+    grid-template-columns:400px 400px;
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    
+}
+#box{
+    background-color: white;
+    border-radius: 6px;
+    
+    /* box-shadow: 0px 0px 6px black; */
+    /* display: grid;
+    row-gap: 10px;
+    grid-template-columns: 150px 150px;
+    grid-template-rows:150px 150px ; */
+}
+#box1{
+    background-color: white;
+    border-radius: 6px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+#box1 img{
+    height: 100%;
+   width: 100%;
+   border-radius: 6px;
+   object-fit: contain;
+
+  
+}
+#imogi{
+    position:absolute;
+   top: 90%;
+   left: 45%;
+   cursor: pointer;
+}
+#imogi2{
+    position:absolute;
+   top: 85%;
+   left: 45%;
+   cursor: pointer;
+}
+#count2{
+    position:absolute;
+   top: 85%;
+   left: 47%;
+   cursor: pointer;
+   background-color:transparent;
+   height: 30px;
+   width: 30px;
+   color: white;
+   font-size: 25px;
+   font-family: cursive;
+}
+
+#count{
+    position:absolute;
+   top: 90%;
+   left: 47%;
+   cursor: pointer;
+   background-color:transparent;
+   height: 30px;
+   width: 30px;
+   color: white;
+   font-size: 25px;
+   font-family: cursive;
+}
+
+#box2{
+    background-color: white;
+    border-radius: 6px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+}
+#box2 img{
+   height: 100%;
+   width: 100%;
+   border-radius: 6px;
+   object-position: center;
+   object-fit: cover;
+
+}
+
+
+#box3{
+    background-color: white;
+    border-radius: 6px;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+#box3 img{
+    height: 100%;
+   width: 100%;
+   border-radius: 6px;
+   object-position: center;
+   object-fit: contain;
+
+}
+#box4{
+    background-color: white;
+    border-radius: 6px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#box4 img{
+    height: 100%;
+   width: 100%;
+   border-radius: 6px;
+   object-position: center;
+   object-fit: cover;
+   object-position:top;
+
+}
+#box5{
+    background-color: white;
+    border-radius: 6px;
+    height: 250px;
+   
+
+}
+#box5 img{
+    height: 100%;
+   width: 100%;
+   border-radius: 6px;
+   object-position: center;
+   object-fit: cover;
+   object-position:top;
+}
+#box6{
+    background-color: white;
+    border-radius: 6px;
+    height: 250px;
+}
+#box6 img{
+    height: 100%;
+   width: 100%;
+   border-radius: 6px;
+   object-position:center;
+   object-fit: left;
+   
+  
+}
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="heading">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY98aCt3GE1LV7bduFtEKVNR2nP9vn1cng3Q&usqp=CAU" alt="">
+            <div id="part2">
+                <h4><a href="http://127.0.0.1:5500/project2/resturnaunt_pro/resturnant/love/#">HOME</a></h4>
+                <h4><a href="http://127.0.0.1:5500/resturnant/love/blog.html">QUOTE's</a></h4>
+                <h4><a href="http://127.0.0.1:5500/project2/resturnaunt_pro/grid_type%20project/index.html">ABOUT ME</a></h4>
+                <h4><a href="http://127.0.0.1:5500/project2/resturnaunt_pro/resturnant/love_calculator/">TO CALCULATE</a></h4>
+            </div>
+            <div id="signup">
+                <button>SIGN UP</button>
+            </div>
+        </div>
+        <div id="landing_page">
+               <div id="box1"><img src="https://www.hindisoch.com/wp-content/uploads/2020/02/Romantic-Valentines-Day-Shayari-in-Hindi.jpg" alt="">
+                
+               </div>
+               <div id="box2"><img src="https://ienglishstatus.com/wp-content/uploads/2017/06/Happy-Friendship-Day-Poems-2017-810x420.png" alt=""></div>
+               <div id="box3"><img src="https://th.bing.com/th/id/OIP.Z-CbUickQ2pkaKhB4g4LZAAAAA?rs=1&pid=ImgDetMain" alt=""></div>
+               <div id="box4"><img src="https://i.pinimg.com/originals/69/48/ab/6948ab7eb6deb6b347f07b7eb3d6e89c.jpg" alt=""></div>
+             <div id="box5"><img src="https://th.bing.com/th/id/R.c03463d18069853db33a0ec19d5ac744?rik=qkcZJhhaLiwjjA&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2014%2f12%2fLove-Image-6.jpg&ehk=eXqMCIg39aYwmMWusEgDObsjvPicY124qVvALYg6clk%3d&risl=&pid=ImgRaw&r=0" alt=""></div>
+            <div id="box6"><img src="https://images.herzindagi.info/image/2020/Feb/v-day-quote-day-two.jpg" alt=""></div>
+        </div>
+    </div>
+    
+      
+</body>
+</html>

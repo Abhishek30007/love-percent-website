@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#626262;
+}
+#main{
+   
+   
+    height: 100%;
+    width: 100%;
+
+}
+#landing_pg{
+    /* background-color: black; */
+    height: 100vh;
+    background-image: url("./personal_studying_type2.jpg");
+    background-position:center; 
+    
+}
+#nav_bar{
+   padding-top:30px;
+    display: flex;
+   justify-content: space-around;
+}
+#social_media{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#social_media a img{
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#about_me{
+    display: flex;
+   gap: 40px;
+   
+}
+#about_me h3 a{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+#about_me h3 a:hover{
+    color: blue;
+    transform: scale(1.2);
+    transition-duration: 300ms;
+    
+    
+}
+#social_media a img:hover{
+    background-color: white;
+    transform: scale(1.6);
+    transition-duration: 400ms;
+
+}
+/* #aboutme{
+    background-color:rgb(88, 86, 86);
+    height: 100vh;
+    background-image: url("./1.png");
+    background-size:cover;
+    background-size:contain;
+    margin-top: 130px;
+} */
+#bio h1{
+    margin-left: 40px;
+    color:white;
+    font-size: 70px;
+}
+#bio h4{
+    padding: 20px 50px;
+    color: white;
+    font-size: 13px;
+}
+#bio{
+    margin-top: 50px;
+
+}
+#know_more{
+    margin-left: 50%;
+    padding: 15px 25px ;
+}
+#education{
+    background-color: #313030;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20220114/pngtree-chalked-word-education-handwritten-on-blackbooto-image_27403010.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    width: 100%;
+}
+#education_heading{
+    /* background-color: white; */
+    width: 20%;
+    margin-left: 20px;
+
+
+}
+
+#education_heading h1{
+  color: white;
+    margin-left: 20%;
+    font-size: 50px;
+    font-family:cursive;
+}
+#education_heading h1:hover{
+    scale: 1.2;
+    text-decoration-line:underline;
+}
+#education_description{
+    display: flex;
+    margin-top: 60px;
+    /* align-items: center;
+    justify-content: space-around; */
+
+}
+#class1to10{
+    /* background-color: white; */
+    height: 250px;
+    width: 250px;
+    border : 2px rgb(139, 134, 134) solid;
+    color: white;
+    border-radius: 20px;
+}
+#class1to10 img{
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    object-fit: cover;
+}
+#class1to10hover{
+    scale: 1.14;
+}
+#class12{
+    /* background-color: red; */
+    height: 250px;
+    width: 250px;
+    border : 2px rgb(139, 134, 134) solid;
+    color: white;
+    border-radius: 20px;
+}
+#class12 img{
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    object-fit:fill;
+    margin-left: 50px;
+    
+}
+#class12 h3{
+    font-family: cursive;
+    font-size: 15px;
+}
+#ajayveer{
+    
+        /* background-color: blue; */
+        height: 250px;
+        width: 250px;
+        background-image: url("");
+        border : 2px rgb(139, 134, 134) solid;
+        color: white;
+        border-radius: 20px;
+    
+
+}
+#ajayveer img{
+    height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    object-fit:fill;
+    margin-left: 50px;
+    
+}
+#ajayveer h3{
+    font-size: 15px;
+    font-family:cursive ;
+  
+    
+}
+
+#college{
+    /* background-color: blue; */
+    height: 350px;
+    width: 250px;
+    background-image: url("");
+    border : 2px rgb(139, 134, 134) solid;
+        color: white;
+        border-radius: 20px;
+    position: absolute;
+    right: 3%;
+    top: 100%;
+    
+}
+#college img{
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    object-fit:cover;
+    
+}
+#college h3{
+    font-family:cursive;
+}
+#family{
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+}
+#family h1{
+    color: white;
+      margin-left: 20%;
+      font-size: 50px;
+      font-family:cursive;
+  }
